@@ -11,10 +11,14 @@ header {
     background-color: green;
 }
 
+img {
+    width: 471px;
+    height: auto;
+    border: 1px ridge royalblue;
+    border-radius: 50%;
+}
 
-
-
-   
+  
 /*Footer*/
 footer {
     background-color: blueviolet;
