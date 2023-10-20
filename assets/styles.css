@@ -1,0 +1,22 @@
+
+/*Main Body Styles*/
+body {
+    background-color: goldenrod;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    background-color: green;
+}
+
+
+
+
+   
+/*Footer*/
+footer {
+    background-color: blueviolet;
+}
+
