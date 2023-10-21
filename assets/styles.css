@@ -1,15 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
-  
+   
 }
 
 body {
-    width: 100%;
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
     color: whitesmoke;
+    min-height: 40vh;
 }
 
 /*Header*/
@@ -21,6 +21,8 @@ header {
     flex: 1 1;
     justify-content: center; 
     border-bottom: 2px solid royalblue;
+    width: 100%;
+    
 }
 
 #logo {
@@ -57,26 +59,23 @@ span {
 
 /*Navigation*/
 nav {
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .ulnav {
+    list-style-type: none; 
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     gap: 15px;
     padding: 0 17px 0 17px;
-    
 }
 
 li {
     border: 1px solid grey;
-    font: 17px calibri;list-style-type: none;
+    font: 17px calibri;
 }
-
-
-
 
 /**Main Body*/
 main {
@@ -88,5 +87,6 @@ main {
 footer {
     background-color: blueviolet;
     text-align: center;
+    
 }
 
