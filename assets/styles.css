@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
-   
+    padding: 0;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
 header {
     background-color: forestgreen;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     gap: 15px;
     flex: 1 1;
     justify-content: center; 
@@ -31,12 +33,12 @@ header {
     font-family: 'Bradley Hand', cursive;
     letter-spacing: 4px;
     text-align: center;
-    
 }
 
 img {
     width: 271px;
     height: 203px;
+    padding-top: 10px;
     align-items: flex-start;
 }
 
@@ -53,7 +55,7 @@ span {
 
 .welcome {
     text-align: center;
-    
+    font-family: Playpen sans, Delicious Hangdrawn, Indie Flower;
 }
 
 
@@ -79,15 +81,20 @@ li {
     
 }
 
-a {
+a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a :hover {
+    background-color: olive;
+}
+
+
 /**Main Body*/
 main {
     background-color: lightslategray;
-    padding: 30px;
+    padding: 40px;
 
 }
 
@@ -108,10 +115,41 @@ form {
   
 /*Footer*/
 footer {
-    background-color: blueviolet;
+    background-color: rgb(17, 145, 70);
     text-align: center;
     vertical-align: bottom;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+/*Media Screen*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    header {
+        display: block;
+    }
+
+    #logo {
+        font-family: 'Bradley Hand', cursive;
+        letter-spacing: 7px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    img {
+        width: 471px;
+        height: 303px;
+    }
+
+    h1 {
+        align-self: center;
+        text-transform: uppercase;
+    }
+    
+    .welcome {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+}
