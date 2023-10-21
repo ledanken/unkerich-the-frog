@@ -1,23 +1,40 @@
-
-/*Main Body Styles*/
-body {
-    background-color: goldenrod;
-    color: aliceblue;
+* {
     box-sizing: border-box;
     margin: 0;
 }
+/*Main Body Styles*/
+body {
+    background-color: goldenrod;
+    color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-/*Header*/
-header {
+/*Heading*/
+#heading {
     background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: Bradley Hand, cursive;
+    font-size: 30px;
+    border-bottom: 4px solid royalblue;
     
 }
 
 img {
-    width: 471px;
+    width: auto;
     height: auto;
     border: 1px ridge royalblue;
     border-radius: 50%;
+      
+}
+
+@media screen and (min-width: ){
+    
 }
 
   
