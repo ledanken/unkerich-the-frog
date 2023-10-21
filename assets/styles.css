@@ -1,54 +1,63 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    flex: 1 0 auto;
+  
 }
-/*Main Body Styles*/
+
 body {
-    color: whitesmoke;
-    min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
+    color: whitesmoke;
+}
+
+/*Header*/
+header {
+    background-color: forestgreen;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    flex: 1 1;
+    justify-content: center; 
+    border-bottom: 2px solid royalblue;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-family: 'Bradley Hand', cursive;
+    letter-spacing: 4px;
+    text-align: center;
     
 }
 
-.div1 {
-    background-color: green; 
-    padding-top: 20px;
-    padding-bottom: 2px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;
-    border-bottom: 4px solid royalblue;
-}    
-
-/*Heading*/
-#heading {
-    background: url("../assets/imgs/unkerich2.png") no-repeat center center ;
-    font-family: 'Bradley Hand', cursive;
-    width: 100%;
-    height: 30vh;
+img {
+    width: 271px;
+    height: 203px;
+    align-items: flex-start;
 }
 
 h1 {
-    padding: 10px;
-    align-self: flex-end;
-   
+    align-self: center;
+    text-transform: uppercase;
 }
 
-h1 > span {
-    font-size: 20px;
-}
+span {
+    font: 25px calibri, sans-serif;
+    text-transform: lowercase;
+    line-height: 1.7;
+}    
 
-.div1 ~ p {
+.welcome {
     text-align: center;
-    font-size: medium;
-    padding: 10px 10px 0 10px;
+    
 }
 
+/*Navigation*/
 nav {
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 .ulnav {
@@ -56,25 +65,15 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     padding: 0 17px 0 17px;
-    list-style-type: none;
+    
 }
 
 li {
     border: 1px solid grey;
-    font: 17px calibri;
+    font: 17px calibri;list-style-type: none;
 }
-
-@media screen and (max-width: 768px ){
-    #heading {
-            align-items: center;
-            font-family: 'Bradley Hand', cursive;
-            width: 100%;
-        }
-}
-    
-
 
 
 
@@ -88,6 +87,6 @@ main {
 /*Footer*/
 footer {
     background-color: blueviolet;
-    
+    text-align: center;
 }
 
