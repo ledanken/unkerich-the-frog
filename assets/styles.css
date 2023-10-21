@@ -93,6 +93,8 @@ main {
 
 h2 {
     text-align: center;
+    text-transform: uppercase;
+    background-color: olive;
 }
 
 
