@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    flex: 1 0 auto;
 }
 /*Main Body Styles*/
 body {
-   
     color: whitesmoke;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 .div1 {
@@ -24,26 +25,15 @@ body {
 
 /*Heading*/
 #heading {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
+    background: url("../assets/imgs/unkerich2.png") no-repeat center center ;
     font-family: 'Bradley Hand', cursive;
     width: 100%;
-}
-
-img {
-    width: 271px;
-    height: 203px;
-    border: 1px ridge royalblue;
-    border-radius: 50%;
-    
+    height: 30vh;
 }
 
 h1 {
     padding: 10px;
-    text-align: center;
+    align-self: flex-end;
    
 }
 
@@ -51,10 +41,10 @@ h1 > span {
     font-size: 20px;
 }
 
-.div1 p {
+.div1 ~ p {
     text-align: center;
     font-size: medium;
-    padding: 0 20px 0 20px;
+    padding: 10px 10px 0 10px;
 }
 
 nav {
@@ -65,9 +55,9 @@ nav {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center center;
+    justify-content: center;
     gap: 10px;
-    padding: 0 0 0 17px;
+    padding: 0 17px 0 17px;
     list-style-type: none;
 }
 
@@ -76,10 +66,20 @@ li {
     font: 17px calibri;
 }
 
-@media screen and (min-width: 768px ){
-    
+@media screen and (max-width: 768px ){
+    #heading {
+            align-items: center;
+            font-family: 'Bradley Hand', cursive;
+            width: 100%;
+        }
 }
+    
 
+
+
+
+
+/**Main Body*/
 main {
     background-color: goldenrod;
 }
@@ -88,6 +88,6 @@ main {
 /*Footer*/
 footer {
     background-color: blueviolet;
-    align-items: baseline;
+    
 }
 
