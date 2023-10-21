@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -23,7 +22,6 @@ header {
     justify-content: center; 
     border-bottom: 2px solid royalblue;
     width: 100%;
-    
 }
 
 #logo {
@@ -55,7 +53,7 @@ span {
 
 .welcome {
     text-align: center;
-    font-family: Playpen sans, Delicious Hangdrawn, Indie Flower;
+    font-family: Indie Flower;
 }
 
 
@@ -63,6 +61,8 @@ span {
 /*Navigation*/
 nav {
     padding: 20px 0 0 0;
+    font: 17px calibri;
+    border: 1px solid grey;
 }
 
 .ulnav {
@@ -75,18 +75,14 @@ nav {
     padding: 0;
 }
 
-li {
-    border: 1px solid grey;
-    font: 17px calibri;
-    
-}
 
-a{
+a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
-a :hover {
+a:hover {
     background-color: olive;
 }
 
@@ -151,5 +147,27 @@ footer {
         text-align: center;
         font-size: 22px;
     }
+
+        /*Navigation*/
+        nav {
+            padding: 30px 0 0 0;
+            text-transform: uppercase;
+            font: 20px calibri;
+        }
+    
+        .ulnav {
+            
+            padding: 20px;
+        }
+    
+        a {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            background-color: olive;
+        }
 
 }
