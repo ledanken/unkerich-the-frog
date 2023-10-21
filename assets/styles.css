@@ -7,9 +7,8 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
     color: whitesmoke;
-    min-height: 40vh;
+    min-height: 100vh;
 }
 
 /*Header*/
@@ -22,7 +21,6 @@ header {
     justify-content: center; 
     border-bottom: 2px solid royalblue;
     width: 100%;
-    
 }
 
 #logo {
@@ -57,9 +55,11 @@ span {
     
 }
 
+
+
 /*Navigation*/
 nav {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0 0;
 }
 
 .ulnav {
@@ -92,11 +92,19 @@ h2 {
     text-align: center;
 }
 
+
+/*FORM*/
+h4 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
   
 /*Footer*/
 footer {
     background-color: blueviolet;
     text-align: center;
-    
+    vertical-align: bottom;
 }
 
