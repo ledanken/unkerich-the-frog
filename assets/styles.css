@@ -4,22 +4,28 @@
 }
 /*Main Body Styles*/
 body {
-    background-color: goldenrod;
+   
     color: whitesmoke;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/*Heading*/
-#heading {
-    background-color: green;
+.div1 {
+    background-color: green; 
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 4px solid royalblue;
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}    
+
+/*Heading*/
+#heading {
+    display: flex;
     flex-flow: row wrap;
-    flex: 1 1 1;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -27,30 +33,44 @@ body {
     width: 100%;
 }
 
+img {
+    width: 271px;
+    height: 203px;
+    border: 1px ridge royalblue;
+    border-radius: 50%;
+    
+}
+
 h1 {
     padding: 10px;
     text-align: center;
+   
 }
 
 h1 > span {
     font-size: 20px;
 }
 
-img {
-    width: 271px;
-    height: 203px;
-    border: 1px ridge royalblue;
-    border-radius: 50%;
-      
+h1 p {
+    text-align: center;
+    font-size: medium;
+   
 }
 
-@media screen and (min-width: ){
+
+
+@media screen and (min-width: 768px ){
     
+}
+
+main {
+    background-color: goldenrod;
 }
 
   
 /*Footer*/
 footer {
     background-color: blueviolet;
+    align-items: baseline;
 }
 
