@@ -67,19 +67,29 @@ nav {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 15px;
-    padding: 0 17px 0 17px;
+    padding: 0;
 }
 
 li {
     border: 1px solid grey;
     font: 17px calibri;
+    
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /**Main Body*/
 main {
     background-color: goldenrod;
+}
+
+h2 {
+    text-align: center;
 }
 
   
