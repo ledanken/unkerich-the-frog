@@ -21,4 +21,4 @@ Then, as how I learned the organization of the process to build a website, I did
 - All should be tested first on moble screens, then to the larger ones
 - Each change should be committed including this README file until the deployment of the website
   
-This is just the run-through or the beginning of this website. There are many things I want to change and add to this later on. 
+This is just the run-through or the beginning of this website. There are many things I want to change and add to this later on. Thank GOD!
