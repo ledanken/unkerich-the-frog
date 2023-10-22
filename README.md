@@ -2,7 +2,7 @@
 
 Here is the link to [Unkerich: the friendly frog]() website. 
 <br><br>
-Here the image of its ![first page](../assets/imgs/Unkerich%2C%20the%20friendly%20frog.png)
+Here the image of its ![first page](./assets/imgs/unkerich_web.png)
 
 This is a Website about frogs and owned by a frog, whose name is Unkerich. This is designed to be an informative website about all frogs.
 
