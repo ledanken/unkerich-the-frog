@@ -148,27 +148,27 @@ footer {
         font-size: 22px;
     }
 
-        /*Navigation*/
-        nav {
+     /*Navigation*/
+     nav {
             padding: 30px 0 0 0;
             text-transform: uppercase;
             font: 20px calibri;
             border: 0;
-        }
+     }
     
-        .ulnav {
+     .ulnav {
             
             padding: 20px;
-        }
+     }
     
-        a {
+    a {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-        }
+     }
     
-        a:hover {
+    a:hover {
             background-color: olive;
-        }
+    }
 
 }
