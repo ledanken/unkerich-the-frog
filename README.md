@@ -2,8 +2,7 @@
 
 Here is the link to [Unkerich: the friendly frog]() website. 
 <br><br>
-Here the image of its first page 
-
+Here the image of its ![first page]{(../assets/imgs/Unkerich,the friendly frog)
 This is a Website about frogs and owned by a frog, whose name is Unkerich. This is designed to be an informative website about all frogs.
 
 ### How did I do this website?
